@@ -1,0 +1,15 @@
+$TTL 7200
+@	IN	SOA	servidor1.meudominio.com.br.	root.meudominio.com.br (
+	2011102901	3H 15M 1W 1D ) 
+)
+NS	servidor1.meudominio.com.br.
+NS	servidor2.meudominio.com.br.
+IN	MX	10	servidor1.meudominio.com.br.
+meudominio.com.br	A	177.204.85.230
+www	A	177.204.85.230
+ftp	A	177.204.85.230
+smtp	A	177.204.85.230
+pop	A	177.204.85.230
+s1	A	177.204.85.230
+s2	A	31.220.51.11
+servidor2	A	31.220.51.11
