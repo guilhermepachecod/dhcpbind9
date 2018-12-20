@@ -13,7 +13,7 @@
 sudo apt-get upgrade
 sudo apt-get update
 
-sudo apt-get install -y bind9 dnsutils bind9utils bind9-doc 
+sudo apt-get install -y bind9 dnsutils bind9utils bind9-doc dhcp3-server
 #resolvconf
 
 sudo mkdir /etc/bind/zones
